@@ -29,7 +29,6 @@ def main():
     else:
         print("发送成功！")
         return True
-#在2021.5.15首次成功实现
 #Writen by TZX.
-
+#2021.5.15
 

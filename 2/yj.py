@@ -20,5 +20,5 @@ stp.connect(mail_host, 25)
 stp.login(mail_sender,mail_license)#登录
 stp.sendmail(mail_sender, mail_receivers, mm.as_string())
 stp.quit()#结束
-#在2021.6.16首次成功实现
 #Writen by TZX.
+#2021.6.16
