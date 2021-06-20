@@ -13,4 +13,4 @@ def wxpusher():
     else:
         print('WxPusher推送失败!请检查appToken和uid是否正确')
 #Writen by TZX.
-#2021.6.20
+#2021.6.20.

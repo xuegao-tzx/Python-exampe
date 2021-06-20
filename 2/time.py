@@ -22,7 +22,7 @@ print(f'输入的时间的时间时间戳:{cssj2}')
 xinxi="当前时间:"+start+"\r\n"+"累计目前,时长为:"+str(day)+"天"+str(hour)+"时"+str(mins1)+"分"+str(secs1)+"秒."+"\r\n"+"本次运行时长:"+str(mins)+"分"+str(secs)+"秒."
 print(xinxi)   
 #Writen by TZX.
-#2021.6.20
+#2021.6.20.
 
 
 

@@ -20,4 +20,4 @@ def server():
     else:
         print('Server酱推送失败!请检查sckey是否正确')
 #Writen by TZX.
-#2021.6.20
+#2021.6.20.

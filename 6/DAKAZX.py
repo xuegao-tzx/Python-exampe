@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 ###在校版###
 ###如果是云函数，函数执行入口为:DAKAZX.main###
-###本程序仅供学术研究，请勿滥用！如出现任何问题与本人无关###
+###本程序仅供学术研究，请勿滥用!如出现任何问题与本人无关###
 import random
 import requests
 import json
