@@ -1,0 +1,288 @@
+###控制台:https://console.qweather.com/#/console
+#实时天气:https://dev.qweather.com/docs/api/weather/weather-now/
+#访问地址:https://devapi.qweather.com/v7/weather/now?location=112.34,37.52&key=8be1911ee2db49b4a386954ac33c186d
+{
+	"code":"200",	#API状态码
+	"updateTime":"2021-06-22T20:27+08:00",	#当前API的最近更新时间
+	"fxLink":"http://hfx.link/2u11",		#当前数据的响应式页面，便于嵌入网站或应用
+	"now":{
+		"obsTime":"2021-06-22T20:11+08:00",	#数据观测时间
+		"temp":"27",	#温度
+		"feelsLike":"25",	#体感温度
+		"icon":"101",	#天气状况和图标的代码
+		"text":"多云",	#天气状况的文字描述
+		"wind360":"45",	#风向360角度
+		"windDir":"东北风",	#风向
+		"windScale":"4",	#风力等级
+		"windSpeed":"20",	#风速，公里/小时
+		"humidity":"46",	#相对湿度，百分比数值
+		"precip":"0.0",	#当前小时累计降水量，默认单位：毫米
+		"pressure":"921",	#大气压强，默认单位：百帕
+		"vis":"30",		#能见度，默认单位：公里
+		"cloud":"10",	#云量，百分比数值
+		"dew":"13"	#露点温度
+	},
+	"refer":{
+		"sources":["Weather China"],
+		"license":["no commercial use"]
+	}
+}
+#逐天天气预报3天:https://dev.qweather.com/docs/api/weather/weather-daily-forecast/
+#访问地址:https://devapi.qweather.com/v7/weather/3d?location=112.34,37.52&key=8be1911ee2db49b4a386954ac33c186d
+{
+	"code":"200",
+	"updateTime":"2021-06-23T07:35+08:00",
+	"fxLink":"http://hfx.link/2u11",
+	"daily":[
+		{
+			"fxDate":"2021-06-23",
+			"sunrise":"05:10",
+			"sunset":"19:56",
+			"moonrise":"18:27",
+			"moonset":"04:15",
+			"moonPhase":"盈凸月",
+			"tempMax":"33",
+			"tempMin":"18",
+			"iconDay":"101",
+			"textDay":"多云",
+			"iconNight":"150",
+			"textNight":"晴",
+			"wind360Day":"135",
+			"windDirDay":"东南风",
+			"windScaleDay":"3-4",
+			"windSpeedDay":"16",
+			"wind360Night":"180",
+			"windDirNight":"南风",
+			"windScaleNight":"1-2",
+			"windSpeedNight":"3",
+			"humidity":"56",
+			"precip":"0.0",
+			"pressure":"904",
+			"vis":"25",
+			"cloud":"8",
+			"uvIndex":"5"
+		},{
+			"fxDate":"2021-06-24",
+			"sunrise":"05:10",
+			"sunset":"19:56",
+			"moonrise":"19:41",
+			"moonset":"05:13",
+			"moonPhase":"盈凸月",
+			"tempMax":"31",
+			"tempMin":"18",
+			"iconDay":"101",
+			"textDay":"多云",
+			"iconNight":"305",
+			"textNight":"小雨",
+			"wind360Day":"135",		
+			"windDirDay":"东南风",
+			"windScaleDay":"3-4",
+			"windSpeedDay":"16",
+			"wind360Night":"180",
+			"windDirNight":"南风",
+			"windScaleNight":"3-4",
+			"windSpeedNight":"16",
+			"humidity":"71",
+			"precip":"0.0",
+			"pressure":"902",
+			"vis":"24",
+			"cloud":"3",
+			"uvIndex":"7"
+		},{
+			"fxDate":"2021-06-25",
+			"sunrise":"05:10",
+			"sunset":"19:56",
+			"moonrise":"20:47",
+			"moonset":"06:18",
+			"moonPhase":"满月",
+			"tempMax":"32",
+			"tempMin":"19",
+			"iconDay":"305",
+			"textDay":"小雨",
+			"iconNight":"101",
+			"textNight":"多云",
+			"wind360Day":"180",
+			"windDirDay":"南风",
+			"windScaleDay":"1-2",
+			"windSpeedDay":"3",
+			"wind360Night":"135",
+			"windDirNight":"东南风",
+			"windScaleNight":"1-2",
+			"windSpeedNight":"3",
+			"humidity":"56",
+			"precip":"1.0",
+			"pressure":"900",
+			"vis":"24",
+			"cloud":"50",
+			"uvIndex":"9"
+		}
+	],
+	"refer":{
+		"sources":["Weather China"],
+		"license":["no commercial use"]
+	}
+}
+#实时空气质量:https://dev.qweather.com/docs/api/air/air-now/
+#访问地址:https://devapi.qweather.com/v7/air/now?location=112.34,37.52&key=8be1911ee2db49b4a386954ac33c186d
+{
+	"code":"200",
+	"updateTime":"2021-06-23T09:43+08:00",
+	"fxLink":"http://hfx.link/2u14",
+	"now":{
+		"pubTime":"2021-06-23T09:00+08:00",
+		"aqi":"70",
+		"level":"2",
+		"category":"良",
+		"primary":"PM10",
+		"pm10":"89",
+		"pm2p5":"45",
+		"no2":"29",
+		"so2":"12",
+		"co":"0.9",
+		"o3":"151"
+	},
+	"refer":{
+		"sources":["cnemc"],
+		"license":["no commercial use"]
+	}
+}
+#天气灾害预警:https://dev.qweather.com/docs/api/warning/weather-warning/
+#访问地址:https://devapi.qweather.com/v7/warning/now?location=112.34,37.52&key=8be1911ee2db49b4a386954ac33c186d
+{
+	"code":"200",
+	"updateTime":"2021-06-23T10:02+08:00",
+	"fxLink":"http://hfx.link/2u15",
+	"warning":[
+	
+	],
+	"refer":{
+		"sources":["12379","Weather China"],
+		"license":["no commercial use"]
+	}
+}
+#天气生活指数:https://dev.qweather.com/docs/api/indices/
+#访问地址:https://devapi.qweather.com/v7/indices/1d?type=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16&location=112.34,37.52&key=8be1911ee2db49b4a386954ac33c186d
+{
+	"code":"200",
+	"updateTime":"2021-06-23T09:36+08:00",
+	"fxLink":"http://hfx.link/2u12",
+	"daily":[
+		{
+			"date":"2021-06-23",
+			"type":"13",
+			"name":"化妆指数",
+			"level":"6",
+			"category":"防脱水",
+			"text":"天气较热，易出汗，建议使用防脱水化妆品，少用粉底和胭脂，经常补粉。"
+		},{
+			"date":"2021-06-23",
+			"type":"5",
+			"name":"紫外线指数",
+			"level":"2",
+			"category":"弱",
+			"text":"紫外线强度较弱，建议出门前涂擦SPF在12-15之间、PA+的防晒护肤品。"
+		},{
+			"date":"2021-06-23",
+			"type":"11",
+			"name":"空调开启指数",
+			"level":"2",
+			"category":"部分时间开启",
+			"text":"天气热，到中午的时候您将会感到有点热，因此建议在午后较热时开启制冷空调。"
+		},{
+			"date":"2021-06-23",
+			"type":"6",
+			"name":"旅游指数",
+			"level":"1",
+			"category":"适宜",
+			"text":"天气较好，风稍大，稍热，总体来说还是好天气。适宜旅游，可不要错过机会呦！"
+		},{
+			"date":"2021-06-23",
+			"type":"12",
+			"name":"太阳镜指数",
+			"level":"1",
+			"category":"不需要",
+			"text":"白天天空阴沉，户外光线较暗，不需要佩戴太阳镜"
+		},{
+			"date":"2021-06-23",
+			"type":"7",
+			"name":"过敏指数",
+			"level":"2",
+			"category":"不易发",
+			"text":"天气条件不易诱发过敏，可放心外出，除特殊体质外，无需担心过敏问题。"
+		},{
+			"date":"2021-06-23",
+			"type":"14",
+			"name":"晾晒指数",
+			"level":"4",
+			"category":"不太适宜",
+			"text":"天气阴沉，不利于水分的迅速蒸发，不太适宜晾晒。若需要晾晒，请尽量选择通风的地点。"
+		},{
+			"date":"2021-06-23",
+			"type":"15",
+			"name":"交通指数",
+			"level":"1",
+			"category":"良好",
+			"text":"阴天，路面干燥，交通气象条件良好，车辆可以正常行驶。"
+		},{
+			"date":"2021-06-23",
+			"type":"8",
+			"name":"舒适度指数",
+			"level":"2",
+			"category":"较舒适",
+			"text":"白天以阴为主，但稍会让您感到有点儿热，但大部分人完全可以接受。"
+		},{
+			"date":"2021-06-23",
+			"type":"10",
+			"name":"空气污染扩散条件指数",
+			"level":"2",
+			"category":"良",
+			"text":"气象条件有利于空气污染物稀释、扩散和清除，可在室外正常活动。"
+		},{
+			"date":"2021-06-23",
+			"type":"3",
+			"name":"穿衣指数",
+			"level":"7",
+			"category":"炎热",
+			"text":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"
+		},{
+			"date":"2021-06-23",
+			"type":"16",
+			"name":"防晒指数",
+			"level":"2",
+			"category":"较弱",
+			"text":"紫外线强度较弱，建议涂擦SPF在12-15之间，PA+的防晒护肤品。"
+		},{
+			"date":"2021-06-23",
+			"type":"9",
+			"name":"感冒指数",
+			"level":"1",
+			"category":"少发",
+			"text":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"
+		},{
+			"date":"2021-06-23",
+			"type":"2",
+			"name":"洗车指数",
+			"level":"2",
+			"category":"较适宜",
+			"text":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"
+		},{
+			"date":"2021-06-23",
+			"type":"4",
+			"name":"钓鱼指数",
+			"level":"2",
+			"category":"较适宜",
+			"text":"较适合垂钓，但天气稍热，会对垂钓产生一定的影响。"
+		},{
+			"date":"2021-06-23",
+			"type":"1",
+			"name":"运动指数",
+			"level":"2",
+			"category":"较适宜",
+			"text":"阴天，较适宜进行各种户内外运动。"
+		}
+	],
+	"refer":{
+		"sources":["Weather China"],
+		"license":["no commercial use"]
+	}
+}

@@ -6,3 +6,4 @@ some practical python code examples
 >4.python写的WxPusher (微信推送服务)https://wxpusher.dingliqc.com/ 模块<br>
 >5.python写的ServerChan(Server酱)https://sct.ftqq.com/(支持新旧2种) 模块<br>
 >6.python写的全自动"校企通COVID-19全自动打卡"代码<br>
+>7.python写的"天气预报"<br>
