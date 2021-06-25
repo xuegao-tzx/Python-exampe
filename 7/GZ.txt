@@ -1,4 +1,4 @@
-#得到当前露点温度
+﻿#得到当前露点温度
 def now_dew():
    	 return get('weather','now')['now']['dew']
 def tq3_fxDate():
@@ -190,4 +190,214 @@ def tqzl_co():
 	return get('air','now')['now']['co']
 def tqzl_o3():
 	return get('air','now')['now']['o3']
+
+def tqshzs_date():
+	return get('indices','1d')[daily][0][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][0][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][0][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][0][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][0][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][0][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][1][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][1][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][1][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][1][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][1][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][1][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][2][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][2][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][2][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][2][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][2][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][2][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][3][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][3][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][3][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][3][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][3][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][3][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][4][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][4][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][4][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][4][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][4][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][4][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][5][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][5][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][5][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][5][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][5][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][5][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][6][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][6][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][6][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][6][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][6][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][6][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][7][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][7][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][7][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][7][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][7][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][7][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][8][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][8][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][8][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][8][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][8][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][8][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][9][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][9][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][9][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][9][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][9][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][9][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][10][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][10][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][10][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][10][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][10][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][10][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][11][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][11][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][11][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][11][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][11][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][11][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][12][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][12][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][12][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][12][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][12][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][12][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][13][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][13][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][13][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][13][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][13][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][13][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][14][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][14][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][14][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][14][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][14][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][14][text]
+def tqshzs_date():
+	return get('indices','1d')[daily][15][date]
+def tqshzs_type():
+	return get('indices','1d')[daily][15][type]
+def tqshzs_name():
+	return get('indices','1d')[daily][15][name]
+def tqshzs_level():
+	return get('indices','1d')[daily][15][level]
+def tqshzs_category():
+	return get('indices','1d')[daily][15][category]
+def tqshzs_text():
+	return get('indices','1d')[daily][15][text]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
