@@ -200,7 +200,7 @@ def code():
     tqshzs_15name=tqshzs_daily[15]['name']#生活指数类型的名称
     tqshzs_15level=tqshzs_daily[15]['level']#生活指数预报等级
     tqshzs_15category=tqshzs_daily[15]['category']#生活指数预报级别名称
-    tqshzs_15text=tqshzs_daily['text']#生活指数预报的详细描述，可能为空
+    tqshzs_15text=tqshzs_daily[15]['text']#生活指数预报的详细描述，可能为空
     
 
     
