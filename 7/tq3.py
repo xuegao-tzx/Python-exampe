@@ -214,7 +214,7 @@ def code():
 def youjian(xinxi):
      mail_host="smtp.163.com"#你的发件邮箱的服务器地址
      mail_sender = "m13753187762@163.com"#你的发件邮箱地址
-     mail_license = "CIPASUZXYIMHISSO"#你的发件邮箱授权码
+     mail_license = ""#你的发件邮箱授权码
      mail_receivers = ["2013040111@st.nuc.edu.cn","x19135127762@petalmail.com"]#你的收件邮箱地址
      mm = MIMEMultipart('related') 
      subject_content = "天气预报"
