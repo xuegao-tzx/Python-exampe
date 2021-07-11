@@ -1,6 +1,6 @@
 ###控制台:https://console.qweather.com/#/console
 #实时天气:https://dev.qweather.com/docs/api/weather/weather-now/
-#访问地址:https://devapi.qweather.com/v7/weather/now?location=112.34,37.52&key=8be1911ee2db49b4a386954ac33c186d
+#访问地址:https://devapi.qweather.com/v7/weather/now?location=112.34,37.52&key=		
 {
 	"code":"200",	#API状态码
 	"updateTime":"2021-06-22T20:27+08:00",	#当前API的最近更新时间

@@ -5,8 +5,8 @@ import time
 
 # 获取今天当前部分信息数据
 def now_weather():
-    url=url='https://devapi.qweather.com/v7/weather/now?key=8be1911ee2db49b4a386954ac33c186d&location=112.34,37.52&gzip=n'
-    #https://devapi.qweather.com/v7/weather/now?key=8be1911ee2db49b4a386954ac33c186d&location=112.34,37.52
+    url=url='https://devapi.qweather.com/v7/weather/now?key=        &location=112.34,37.52&gzip=n'
+    #https://devapi.qweather.com/v7/weather/now?key=        &location=112.34,37.52
     header={
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
     }
@@ -29,7 +29,7 @@ def now_and_future_twodays_weather():
     # 后天天气预测
     the_day_after_tomorrow_weather=[]
 
-    url = 'https://devapi.qweather.com/v7/weather/3d?key=8be1911ee2db49b4a386954ac33c186d&location=112.34,37.52&gzip=n'
+    url = 'https://devapi.qweather.com/v7/weather/3d?key=       &location=112.34,37.52&gzip=n'
     header = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
     }

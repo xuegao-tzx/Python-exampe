@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 from email.header import Header
 # 天气相关 api 调用
 def get(sjlx,apilx):
-    url = 'https://devapi.qweather.com/v7/'+sjlx+'/'+apilx+'?'+'location=112.34,37.52'+'&'+'key=8be1911ee2db49b4a386954ac33c186d'
+    url = 'https://devapi.qweather.com/v7/'+sjlx+'/'+apilx+'?'+'location=112.34,37.52'+'&'+'    '
     print(url)
     return requests.get(url).json()
 ###实时天气###
